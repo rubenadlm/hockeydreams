@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45CA9F171DA8FF1200902229 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CA9F161DA8FF1200902229 /* AppDelegate.swift */; };
+		45CA9F191DA8FF1200902229 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CA9F181DA8FF1200902229 /* ViewController.swift */; };
+		45CA9F1C1DA8FF1200902229 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45CA9F1A1DA8FF1200902229 /* Main.storyboard */; };
+		45CA9F1E1DA8FF1200902229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45CA9F1D1DA8FF1200902229 /* Assets.xcassets */; };
+		45CA9F211DA8FF1300902229 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45CA9F1F1DA8FF1300902229 /* LaunchScreen.storyboard */; };
+		45CA9F2C1DA8FF1300902229 /* hockeydreamsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CA9F2B1DA8FF1300902229 /* hockeydreamsTests.swift */; };
+		45CA9F371DA8FF1300902229 /* hockeydreamsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CA9F361DA8FF1300902229 /* hockeydreamsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45CA9F281DA8FF1300902229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45CA9F0B1DA8FF1200902229 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45CA9F121DA8FF1200902229;
+			remoteInfo = hockeydreams;
+		};
+		45CA9F331DA8FF1300902229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45CA9F0B1DA8FF1200902229 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45CA9F121DA8FF1200902229;
+			remoteInfo = hockeydreams;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45CA9F131DA8FF1200902229 /* hockeydreams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hockeydreams.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45CA9F161DA8FF1200902229 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45CA9F181DA8FF1200902229 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45CA9F1B1DA8FF1200902229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45CA9F1D1DA8FF1200902229 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45CA9F201DA8FF1300902229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45CA9F221DA8FF1300902229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45CA9F271DA8FF1300902229 /* hockeydreamsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hockeydreamsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45CA9F2B1DA8FF1300902229 /* hockeydreamsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hockeydreamsTests.swift; sourceTree = "<group>"; };
+		45CA9F2D1DA8FF1300902229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45CA9F321DA8FF1300902229 /* hockeydreamsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hockeydreamsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45CA9F361DA8FF1300902229 /* hockeydreamsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hockeydreamsUITests.swift; sourceTree = "<group>"; };
+		45CA9F381DA8FF1300902229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45CA9F101DA8FF1200902229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CA9F241DA8FF1300902229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CA9F2F1DA8FF1300902229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45CA9F0A1DA8FF1200902229 = {
+			isa = PBXGroup;
+			children = (
+				45CA9F151DA8FF1200902229 /* hockeydreams */,
+				45CA9F2A1DA8FF1300902229 /* hockeydreamsTests */,
+				45CA9F351DA8FF1300902229 /* hockeydreamsUITests */,
+				45CA9F141DA8FF1200902229 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45CA9F141DA8FF1200902229 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45CA9F131DA8FF1200902229 /* hockeydreams.app */,
+				45CA9F271DA8FF1300902229 /* hockeydreamsTests.xctest */,
+				45CA9F321DA8FF1300902229 /* hockeydreamsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45CA9F151DA8FF1200902229 /* hockeydreams */ = {
+			isa = PBXGroup;
+			children = (
+				45CA9F161DA8FF1200902229 /* AppDelegate.swift */,
+				45CA9F181DA8FF1200902229 /* ViewController.swift */,
+				45CA9F1A1DA8FF1200902229 /* Main.storyboard */,
+				45CA9F1D1DA8FF1200902229 /* Assets.xcassets */,
+				45CA9F1F1DA8FF1300902229 /* LaunchScreen.storyboard */,
+				45CA9F221DA8FF1300902229 /* Info.plist */,
+			);
+			path = hockeydreams;
+			sourceTree = "<group>";
+		};
+		45CA9F2A1DA8FF1300902229 /* hockeydreamsTests */ = {
+			isa = PBXGroup;
+			children = (
+				45CA9F2B1DA8FF1300902229 /* hockeydreamsTests.swift */,
+				45CA9F2D1DA8FF1300902229 /* Info.plist */,
+			);
+			path = hockeydreamsTests;
+			sourceTree = "<group>";
+		};
+		45CA9F351DA8FF1300902229 /* hockeydreamsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45CA9F361DA8FF1300902229 /* hockeydreamsUITests.swift */,
+				45CA9F381DA8FF1300902229 /* Info.plist */,
+			);
+			path = hockeydreamsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45CA9F121DA8FF1200902229 /* hockeydreams */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45CA9F3B1DA8FF1300902229 /* Build configuration list for PBXNativeTarget "hockeydreams" */;
+			buildPhases = (
+				45CA9F0F1DA8FF1200902229 /* Sources */,
+				45CA9F101DA8FF1200902229 /* Frameworks */,
+				45CA9F111DA8FF1200902229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hockeydreams;
+			productName = hockeydreams;
+			productReference = 45CA9F131DA8FF1200902229 /* hockeydreams.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45CA9F261DA8FF1300902229 /* hockeydreamsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45CA9F3E1DA8FF1300902229 /* Build configuration list for PBXNativeTarget "hockeydreamsTests" */;
+			buildPhases = (
+				45CA9F231DA8FF1300902229 /* Sources */,
+				45CA9F241DA8FF1300902229 /* Frameworks */,
+				45CA9F251DA8FF1300902229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45CA9F291DA8FF1300902229 /* PBXTargetDependency */,
+			);
+			name = hockeydreamsTests;
+			productName = hockeydreamsTests;
+			productReference = 45CA9F271DA8FF1300902229 /* hockeydreamsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45CA9F311DA8FF1300902229 /* hockeydreamsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45CA9F411DA8FF1300902229 /* Build configuration list for PBXNativeTarget "hockeydreamsUITests" */;
+			buildPhases = (
+				45CA9F2E1DA8FF1300902229 /* Sources */,
+				45CA9F2F1DA8FF1300902229 /* Frameworks */,
+				45CA9F301DA8FF1300902229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45CA9F341DA8FF1300902229 /* PBXTargetDependency */,
+			);
+			name = hockeydreamsUITests;
+			productName = hockeydreamsUITests;
+			productReference = 45CA9F321DA8FF1300902229 /* hockeydreamsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45CA9F0B1DA8FF1200902229 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = boomstick;
+				TargetAttributes = {
+					45CA9F121DA8FF1200902229 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					45CA9F261DA8FF1300902229 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45CA9F121DA8FF1200902229;
+					};
+					45CA9F311DA8FF1300902229 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45CA9F121DA8FF1200902229;
+					};
+				};
+			};
+			buildConfigurationList = 45CA9F0E1DA8FF1200902229 /* Build configuration list for PBXProject "hockeydreams" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45CA9F0A1DA8FF1200902229;
+			productRefGroup = 45CA9F141DA8FF1200902229 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45CA9F121DA8FF1200902229 /* hockeydreams */,
+				45CA9F261DA8FF1300902229 /* hockeydreamsTests */,
+				45CA9F311DA8FF1300902229 /* hockeydreamsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45CA9F111DA8FF1200902229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CA9F211DA8FF1300902229 /* LaunchScreen.storyboard in Resources */,
+				45CA9F1E1DA8FF1200902229 /* Assets.xcassets in Resources */,
+				45CA9F1C1DA8FF1200902229 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CA9F251DA8FF1300902229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CA9F301DA8FF1300902229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45CA9F0F1DA8FF1200902229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CA9F191DA8FF1200902229 /* ViewController.swift in Sources */,
+				45CA9F171DA8FF1200902229 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CA9F231DA8FF1300902229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CA9F2C1DA8FF1300902229 /* hockeydreamsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45CA9F2E1DA8FF1300902229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CA9F371DA8FF1300902229 /* hockeydreamsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45CA9F291DA8FF1300902229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45CA9F121DA8FF1200902229 /* hockeydreams */;
+			targetProxy = 45CA9F281DA8FF1300902229 /* PBXContainerItemProxy */;
+		};
+		45CA9F341DA8FF1300902229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45CA9F121DA8FF1200902229 /* hockeydreams */;
+			targetProxy = 45CA9F331DA8FF1300902229 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45CA9F1A1DA8FF1200902229 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45CA9F1B1DA8FF1200902229 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45CA9F1F1DA8FF1300902229 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45CA9F201DA8FF1300902229 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45CA9F391DA8FF1300902229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45CA9F3A1DA8FF1300902229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45CA9F3C1DA8FF1300902229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hockeydreams/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boomstick.hockeydreams;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		45CA9F3D1DA8FF1300902229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hockeydreams/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boomstick.hockeydreams;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		45CA9F3F1DA8FF1300902229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hockeydreamsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boomstick.hockeydreamsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hockeydreams.app/hockeydreams";
+			};
+			name = Debug;
+		};
+		45CA9F401DA8FF1300902229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hockeydreamsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boomstick.hockeydreamsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hockeydreams.app/hockeydreams";
+			};
+			name = Release;
+		};
+		45CA9F421DA8FF1300902229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = hockeydreamsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boomstick.hockeydreamsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = hockeydreams;
+			};
+			name = Debug;
+		};
+		45CA9F431DA8FF1300902229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = hockeydreamsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boomstick.hockeydreamsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = hockeydreams;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45CA9F0E1DA8FF1200902229 /* Build configuration list for PBXProject "hockeydreams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CA9F391DA8FF1300902229 /* Debug */,
+				45CA9F3A1DA8FF1300902229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45CA9F3B1DA8FF1300902229 /* Build configuration list for PBXNativeTarget "hockeydreams" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CA9F3C1DA8FF1300902229 /* Debug */,
+				45CA9F3D1DA8FF1300902229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45CA9F3E1DA8FF1300902229 /* Build configuration list for PBXNativeTarget "hockeydreamsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CA9F3F1DA8FF1300902229 /* Debug */,
+				45CA9F401DA8FF1300902229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45CA9F411DA8FF1300902229 /* Build configuration list for PBXNativeTarget "hockeydreamsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CA9F421DA8FF1300902229 /* Debug */,
+				45CA9F431DA8FF1300902229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45CA9F0B1DA8FF1200902229 /* Project object */;
+}
