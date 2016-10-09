@@ -15,6 +15,8 @@
 		45CA9F2C1DA8FF1300902229 /* hockeydreamsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CA9F2B1DA8FF1300902229 /* hockeydreamsTests.swift */; };
 		45CA9F371DA8FF1300902229 /* hockeydreamsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CA9F361DA8FF1300902229 /* hockeydreamsUITests.swift */; };
 		45D46E941DAA4F9F0016C9B8 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46E931DAA4F9F0016C9B8 /* Theme.swift */; };
+		45D46E991DAA54580016C9B8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46E981DAA54580016C9B8 /* SettingsViewController.swift */; };
+		45D46E9B1DAA58D80016C9B8 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46E9A1DAA58D80016C9B8 /* SettingsViewModel.swift */; };
 		45D46EA21DAA5C360016C9B8 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46EA01DAA5C360016C9B8 /* SettingCell.swift */; };
 		45D46EA31DAA5C360016C9B8 /* SettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D46EA11DAA5C360016C9B8 /* SettingCell.xib */; };
 		45D46EA51DAA5C510016C9B8 /* SettingCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46EA41DAA5C510016C9B8 /* SettingCellViewModel.swift */; };
@@ -23,6 +25,7 @@
 		45D46EAF1DAA892E0016C9B8 /* UITableViewCell+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46EAE1DAA892E0016C9B8 /* UITableViewCell+Reusable.swift */; };
 		45D46EB11DAA89EC0016C9B8 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46EB01DAA89EC0016C9B8 /* BaseCell.swift */; };
 		45D46EB31DAA8B470016C9B8 /* UITableViewCell+BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46EB21DAA8B470016C9B8 /* UITableViewCell+BaseViewModel.swift */; };
+		45D46EB51DAAAE590016C9B8 /* SettingsViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46EB41DAAAE590016C9B8 /* SettingsViewModelProtocol.swift */; };
 		45D46EB71DAAAF7A0016C9B8 /* AppToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46EB61DAAAF7A0016C9B8 /* AppToken.swift */; };
 		45D46EB91DAAEA9E0016C9B8 /* SettingCellViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46EB81DAAEA9E0016C9B8 /* SettingCellViewModelProtocol.swift */; };
 		45D46EBB1DAAF07E0016C9B8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46EBA1DAAF07E0016C9B8 /* ListViewController.swift */; };
@@ -71,6 +74,8 @@
 		45CA9F361DA8FF1300902229 /* hockeydreamsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hockeydreamsUITests.swift; sourceTree = "<group>"; };
 		45CA9F381DA8FF1300902229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45D46E931DAA4F9F0016C9B8 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		45D46E981DAA54580016C9B8 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		45D46E9A1DAA58D80016C9B8 /* SettingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		45D46EA01DAA5C360016C9B8 /* SettingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
 		45D46EA11DAA5C360016C9B8 /* SettingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingCell.xib; sourceTree = "<group>"; };
 		45D46EA41DAA5C510016C9B8 /* SettingCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingCellViewModel.swift; sourceTree = "<group>"; };
@@ -79,6 +84,7 @@
 		45D46EAE1DAA892E0016C9B8 /* UITableViewCell+Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Reusable.swift"; sourceTree = "<group>"; };
 		45D46EB01DAA89EC0016C9B8 /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
 		45D46EB21DAA8B470016C9B8 /* UITableViewCell+BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+BaseViewModel.swift"; sourceTree = "<group>"; };
+		45D46EB41DAAAE590016C9B8 /* SettingsViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewModelProtocol.swift; sourceTree = "<group>"; };
 		45D46EB61DAAAF7A0016C9B8 /* AppToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppToken.swift; sourceTree = "<group>"; };
 		45D46EB81DAAEA9E0016C9B8 /* SettingCellViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingCellViewModelProtocol.swift; sourceTree = "<group>"; };
 		45D46EBA1DAAF07E0016C9B8 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
@@ -219,6 +225,16 @@
 				45D46E9C1DAA58F30016C9B8 /* Settings */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		45D46E9C1DAA58F30016C9B8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				45D46E981DAA54580016C9B8 /* SettingsViewController.swift */,
+				45D46EB41DAAAE590016C9B8 /* SettingsViewModelProtocol.swift */,
+				45D46E9A1DAA58D80016C9B8 /* SettingsViewModel.swift */,
+			);
+			name = Settings;
 			sourceTree = "<group>";
 		};
 		45D46E9D1DAA5BE20016C9B8 /* Reusable components */ = {
@@ -595,13 +611,16 @@
 				45D46EB11DAA89EC0016C9B8 /* BaseCell.swift in Sources */,
 				45D46ECE1DAAFE4A0016C9B8 /* BaseViewModel.swift in Sources */,
 				45D46EB71DAAAF7A0016C9B8 /* AppToken.swift in Sources */,
+				45D46E991DAA54580016C9B8 /* SettingsViewController.swift in Sources */,
 				45CA9F191DA8FF1200902229 /* ViewController.swift in Sources */,
 				45D46EBB1DAAF07E0016C9B8 /* ListViewController.swift in Sources */,
 				45D46EAA1DAA6BC30016C9B8 /* BaseViewController.swift in Sources */,
 				45D46E941DAA4F9F0016C9B8 /* Theme.swift in Sources */,
+				45D46EB51DAAAE590016C9B8 /* SettingsViewModelProtocol.swift in Sources */,
 				45CA9F171DA8FF1200902229 /* AppDelegate.swift in Sources */,
 				45D46E901DAA49790016C9B8 /* UITabBarController+Customization.swift in Sources */,
 				45D46EC71DAAF1820016C9B8 /* ListCellViewModelProtocol.swift in Sources */,
+				45D46E9B1DAA58D80016C9B8 /* SettingsViewModel.swift in Sources */,
 				45D46ECC1DAAF3570016C9B8 /* ServiceProxy.swift in Sources */,
 				45D46EC91DAAF1910016C9B8 /* ListCellViewModel.swift in Sources */,
 				45D46EC31DAAF1640016C9B8 /* ListCell.swift in Sources */,
