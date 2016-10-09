@@ -25,6 +25,9 @@
 		45D46EB31DAA8B470016C9B8 /* UITableViewCell+BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46EB21DAA8B470016C9B8 /* UITableViewCell+BaseViewModel.swift */; };
 		45D46EB71DAAAF7A0016C9B8 /* AppToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46EB61DAAAF7A0016C9B8 /* AppToken.swift */; };
 		45D46EB91DAAEA9E0016C9B8 /* SettingCellViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46EB81DAAEA9E0016C9B8 /* SettingCellViewModelProtocol.swift */; };
+		45D46EBB1DAAF07E0016C9B8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46EBA1DAAF07E0016C9B8 /* ListViewController.swift */; };
+		45D46EBE1DAAF09F0016C9B8 /* ListViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46EBD1DAAF09F0016C9B8 /* ListViewModelProtocol.swift */; };
+		45D46EC01DAAF0AF0016C9B8 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46EBF1DAAF0AF0016C9B8 /* ListViewModel.swift */; };
 		45D46EC31DAAF1640016C9B8 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46EC11DAAF1640016C9B8 /* ListCell.swift */; };
 		45D46EC41DAAF1640016C9B8 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D46EC21DAAF1640016C9B8 /* ListCell.xib */; };
 		45D46EC71DAAF1820016C9B8 /* ListCellViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46EC61DAAF1820016C9B8 /* ListCellViewModelProtocol.swift */; };
@@ -78,6 +81,9 @@
 		45D46EB21DAA8B470016C9B8 /* UITableViewCell+BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+BaseViewModel.swift"; sourceTree = "<group>"; };
 		45D46EB61DAAAF7A0016C9B8 /* AppToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppToken.swift; sourceTree = "<group>"; };
 		45D46EB81DAAEA9E0016C9B8 /* SettingCellViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingCellViewModelProtocol.swift; sourceTree = "<group>"; };
+		45D46EBA1DAAF07E0016C9B8 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		45D46EBD1DAAF09F0016C9B8 /* ListViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewModelProtocol.swift; sourceTree = "<group>"; };
+		45D46EBF1DAAF0AF0016C9B8 /* ListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		45D46EC11DAAF1640016C9B8 /* ListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
 		45D46EC21DAAF1640016C9B8 /* ListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
 		45D46EC61DAAF1820016C9B8 /* ListCellViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCellViewModelProtocol.swift; sourceTree = "<group>"; };
@@ -153,6 +159,7 @@
 				45D46E8B1DAA450E0016C9B8 /* Core */,
 				45D46EA81DAA5F6E0016C9B8 /* Protocols */,
 				45D46E961DAA52D40016C9B8 /* Theme Manager */,
+				45D46E971DAA541E0016C9B8 /* Controllers */,
 				45D46E9D1DAA5BE20016C9B8 /* Reusable components */,
 				45CA9F1D1DA8FF1200902229 /* Assets.xcassets */,
 				45CA9F1F1DA8FF1300902229 /* LaunchScreen.storyboard */,
@@ -205,6 +212,15 @@
 			name = "Theme Manager";
 			sourceTree = "<group>";
 		};
+		45D46E971DAA541E0016C9B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				45D46EBC1DAAF0820016C9B8 /* List */,
+				45D46E9C1DAA58F30016C9B8 /* Settings */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		45D46E9D1DAA5BE20016C9B8 /* Reusable components */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +268,16 @@
 				45D46EB21DAA8B470016C9B8 /* UITableViewCell+BaseViewModel.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		45D46EBC1DAAF0820016C9B8 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				45D46EBA1DAAF07E0016C9B8 /* ListViewController.swift */,
+				45D46EBD1DAAF09F0016C9B8 /* ListViewModelProtocol.swift */,
+				45D46EBF1DAAF0AF0016C9B8 /* ListViewModel.swift */,
+			);
+			name = List;
 			sourceTree = "<group>";
 		};
 		45D46EC51DAAF1680016C9B8 /* List */ = {
@@ -562,12 +588,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45D46EBE1DAAF09F0016C9B8 /* ListViewModelProtocol.swift in Sources */,
+				45D46EC01DAAF0AF0016C9B8 /* ListViewModel.swift in Sources */,
 				45DBED731DA911D400CDF08D /* App.swift in Sources */,
 				45D46EA71DAA5F670016C9B8 /* Reusable.swift in Sources */,
 				45D46EB11DAA89EC0016C9B8 /* BaseCell.swift in Sources */,
 				45D46ECE1DAAFE4A0016C9B8 /* BaseViewModel.swift in Sources */,
 				45D46EB71DAAAF7A0016C9B8 /* AppToken.swift in Sources */,
 				45CA9F191DA8FF1200902229 /* ViewController.swift in Sources */,
+				45D46EBB1DAAF07E0016C9B8 /* ListViewController.swift in Sources */,
 				45D46EAA1DAA6BC30016C9B8 /* BaseViewController.swift in Sources */,
 				45D46E941DAA4F9F0016C9B8 /* Theme.swift in Sources */,
 				45CA9F171DA8FF1200902229 /* AppDelegate.swift in Sources */,
