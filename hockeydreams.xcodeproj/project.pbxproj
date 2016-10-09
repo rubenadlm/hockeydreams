@@ -14,6 +14,7 @@
 		45CA9F211DA8FF1300902229 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45CA9F1F1DA8FF1300902229 /* LaunchScreen.storyboard */; };
 		45CA9F2C1DA8FF1300902229 /* hockeydreamsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CA9F2B1DA8FF1300902229 /* hockeydreamsTests.swift */; };
 		45CA9F371DA8FF1300902229 /* hockeydreamsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CA9F361DA8FF1300902229 /* hockeydreamsUITests.swift */; };
+		45D46E921DAA4B770016C9B8 /* TabBarControllersManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46E911DAA4B770016C9B8 /* TabBarControllersManager.swift */; };
 		45D46E941DAA4F9F0016C9B8 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46E931DAA4F9F0016C9B8 /* Theme.swift */; };
 		45D46E991DAA54580016C9B8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46E981DAA54580016C9B8 /* SettingsViewController.swift */; };
 		45D46E9B1DAA58D80016C9B8 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46E9A1DAA58D80016C9B8 /* SettingsViewModel.swift */; };
@@ -73,6 +74,7 @@
 		45CA9F321DA8FF1300902229 /* hockeydreamsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hockeydreamsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45CA9F361DA8FF1300902229 /* hockeydreamsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hockeydreamsUITests.swift; sourceTree = "<group>"; };
 		45CA9F381DA8FF1300902229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45D46E911DAA4B770016C9B8 /* TabBarControllersManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarControllersManager.swift; sourceTree = "<group>"; };
 		45D46E931DAA4F9F0016C9B8 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		45D46E981DAA54580016C9B8 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		45D46E9A1DAA58D80016C9B8 /* SettingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				45CA9F181DA8FF1200902229 /* ViewController.swift */,
 				45D46E8B1DAA450E0016C9B8 /* Core */,
 				45D46EA81DAA5F6E0016C9B8 /* Protocols */,
+				45D46E951DAA525B0016C9B8 /* TabBar Manager */,
 				45D46E961DAA52D40016C9B8 /* Theme Manager */,
 				45D46E971DAA541E0016C9B8 /* Controllers */,
 				45D46E9D1DAA5BE20016C9B8 /* Reusable components */,
@@ -208,6 +211,14 @@
 				45D46EB61DAAAF7A0016C9B8 /* AppToken.swift */,
 			);
 			name = Entities;
+			sourceTree = "<group>";
+		};
+		45D46E951DAA525B0016C9B8 /* TabBar Manager */ = {
+			isa = PBXGroup;
+			children = (
+				45D46E911DAA4B770016C9B8 /* TabBarControllersManager.swift */,
+			);
+			name = "TabBar Manager";
 			sourceTree = "<group>";
 		};
 		45D46E961DAA52D40016C9B8 /* Theme Manager */ = {
@@ -605,11 +616,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				45D46EBE1DAAF09F0016C9B8 /* ListViewModelProtocol.swift in Sources */,
+				45D46EAF1DAA892E0016C9B8 /* UITableViewCell+Reusable.swift in Sources */,
 				45D46EC01DAAF0AF0016C9B8 /* ListViewModel.swift in Sources */,
 				45DBED731DA911D400CDF08D /* App.swift in Sources */,
 				45D46EA71DAA5F670016C9B8 /* Reusable.swift in Sources */,
 				45D46EB11DAA89EC0016C9B8 /* BaseCell.swift in Sources */,
 				45D46ECE1DAAFE4A0016C9B8 /* BaseViewModel.swift in Sources */,
+				45D46E921DAA4B770016C9B8 /* TabBarControllersManager.swift in Sources */,
 				45D46EB71DAAAF7A0016C9B8 /* AppToken.swift in Sources */,
 				45D46E991DAA54580016C9B8 /* SettingsViewController.swift in Sources */,
 				45CA9F191DA8FF1200902229 /* ViewController.swift in Sources */,
@@ -618,7 +631,6 @@
 				45D46E941DAA4F9F0016C9B8 /* Theme.swift in Sources */,
 				45D46EB51DAAAE590016C9B8 /* SettingsViewModelProtocol.swift in Sources */,
 				45CA9F171DA8FF1200902229 /* AppDelegate.swift in Sources */,
-				45D46E901DAA49790016C9B8 /* UITabBarController+Customization.swift in Sources */,
 				45D46EC71DAAF1820016C9B8 /* ListCellViewModelProtocol.swift in Sources */,
 				45D46E9B1DAA58D80016C9B8 /* SettingsViewModel.swift in Sources */,
 				45D46ECC1DAAF3570016C9B8 /* ServiceProxy.swift in Sources */,
