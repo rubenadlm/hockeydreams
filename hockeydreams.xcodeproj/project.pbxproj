@@ -15,6 +15,7 @@
 		45CA9F2C1DA8FF1300902229 /* hockeydreamsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CA9F2B1DA8FF1300902229 /* hockeydreamsTests.swift */; };
 		45CA9F371DA8FF1300902229 /* hockeydreamsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CA9F361DA8FF1300902229 /* hockeydreamsUITests.swift */; };
 		45D46E941DAA4F9F0016C9B8 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46E931DAA4F9F0016C9B8 /* Theme.swift */; };
+		45D46EB71DAAAF7A0016C9B8 /* AppToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46EB61DAAAF7A0016C9B8 /* AppToken.swift */; };
 		45DBED731DA911D400CDF08D /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DBED721DA911D400CDF08D /* App.swift */; };
 		7E62D4EBBA788BB126BD66C2 /* Pods_hockeydreamsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA371C1D877E1884FB52F0F /* Pods_hockeydreamsUITests.framework */; };
 		8B320ED3A3CDA3E149ECEAF7 /* Pods_hockeydreamsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD1E27490AD8C6B2BC53CF7 /* Pods_hockeydreamsTests.framework */; };
@@ -52,6 +53,7 @@
 		45CA9F361DA8FF1300902229 /* hockeydreamsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hockeydreamsUITests.swift; sourceTree = "<group>"; };
 		45CA9F381DA8FF1300902229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45D46E931DAA4F9F0016C9B8 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		45D46EB61DAAAF7A0016C9B8 /* AppToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppToken.swift; sourceTree = "<group>"; };
 		45DBED721DA911D400CDF08D /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		5AD1E27490AD8C6B2BC53CF7 /* Pods_hockeydreamsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hockeydreamsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		786CCF5D55FE76369C1DD334 /* Pods-hockeydreams.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hockeydreams.release.xcconfig"; path = "Pods/Target Support Files/Pods-hockeydreams/Pods-hockeydreams.release.xcconfig"; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				45DBED721DA911D400CDF08D /* App.swift */,
+				45D46EB61DAAAF7A0016C9B8 /* AppToken.swift */,
 			);
 			name = Entities;
 			sourceTree = "<group>";
@@ -457,6 +460,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45DBED731DA911D400CDF08D /* App.swift in Sources */,
+				45D46EB71DAAAF7A0016C9B8 /* AppToken.swift in Sources */,
 				45CA9F191DA8FF1200902229 /* ViewController.swift in Sources */,
 				45D46E941DAA4F9F0016C9B8 /* Theme.swift in Sources */,
 				45CA9F171DA8FF1200902229 /* AppDelegate.swift in Sources */,
