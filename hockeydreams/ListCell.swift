@@ -1,5 +1,5 @@
 //
-//  SettingCell.swift
+//  ListCell.swift
 //  hockeydreams
 //
 //  Created by Ruben Alonso on 9/10/16.
@@ -10,12 +10,11 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class SettingCell: UITableViewCell {
-    static let cellHeight: CGFloat = 50.0
+class ListCell: UITableViewCell {
+    static let cellHeight: CGFloat = 150.0
     @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var tokenLabel: UILabel!
-
-    var viewModel: SettingCellViewModelProtocol?
+    
+    var viewModel: ListCellViewModelProtocol?
     private var disposeBag = DisposeBag()
     
     func setupRx() {
@@ -25,13 +24,12 @@ class SettingCell: UITableViewCell {
         }
         
         viewModel.title.bindTo(titleLabel.rx.text).addDisposableTo(disposeBag)
-        viewModel.token.bindTo(tokenLabel.rx.text).addDisposableTo(disposeBag)
     }
 }
 
-extension SettingCell {
+extension ListCell {
     override func set(viewModel: Any) {
-        guard let viewModel = viewModel as? SettingCellViewModelProtocol else {
+        guard let viewModel = viewModel as? ListCellViewModelProtocol else {
             return
         }
         

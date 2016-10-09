@@ -27,6 +27,7 @@ extension BaseViewController {
     
     private func registerTableCells(tableView: UITableView) {
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: UITableViewCell.reuseIdentifier)
+        tableView.register(UINib(nibName: "ListCell", bundle: nil), forCellReuseIdentifier: ListCell.reuseIdentifier)
         tableView.register(UINib(nibName: "SettingCell", bundle: nil), forCellReuseIdentifier: SettingCell.reuseIdentifier)
     }
 }
