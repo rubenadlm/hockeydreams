@@ -29,6 +29,7 @@
 		45D46EC41DAAF1640016C9B8 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45D46EC21DAAF1640016C9B8 /* ListCell.xib */; };
 		45D46EC71DAAF1820016C9B8 /* ListCellViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46EC61DAAF1820016C9B8 /* ListCellViewModelProtocol.swift */; };
 		45D46EC91DAAF1910016C9B8 /* ListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46EC81DAAF1910016C9B8 /* ListCellViewModel.swift */; };
+		45D46ECE1DAAFE4A0016C9B8 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D46ECD1DAAFE4A0016C9B8 /* BaseViewModel.swift */; };
 		45DBED731DA911D400CDF08D /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DBED721DA911D400CDF08D /* App.swift */; };
 		7E62D4EBBA788BB126BD66C2 /* Pods_hockeydreamsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA371C1D877E1884FB52F0F /* Pods_hockeydreamsUITests.framework */; };
 		8B320ED3A3CDA3E149ECEAF7 /* Pods_hockeydreamsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD1E27490AD8C6B2BC53CF7 /* Pods_hockeydreamsTests.framework */; };
@@ -80,6 +81,7 @@
 		45D46EC21DAAF1640016C9B8 /* ListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
 		45D46EC61DAAF1820016C9B8 /* ListCellViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCellViewModelProtocol.swift; sourceTree = "<group>"; };
 		45D46EC81DAAF1910016C9B8 /* ListCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCellViewModel.swift; sourceTree = "<group>"; };
+		45D46ECD1DAAFE4A0016C9B8 /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		45DBED721DA911D400CDF08D /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		5AD1E27490AD8C6B2BC53CF7 /* Pods_hockeydreamsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hockeydreamsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		786CCF5D55FE76369C1DD334 /* Pods-hockeydreams.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hockeydreams.release.xcconfig"; path = "Pods/Target Support Files/Pods-hockeydreams/Pods-hockeydreams.release.xcconfig"; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 			children = (
 				45D46EA61DAA5F670016C9B8 /* Reusable.swift */,
 				45D46EA91DAA6BC30016C9B8 /* BaseViewController.swift */,
+				45D46ECD1DAAFE4A0016C9B8 /* BaseViewModel.swift */,
 				45D46EB01DAA89EC0016C9B8 /* BaseCell.swift */,
 			);
 			name = Protocols;
@@ -551,6 +554,7 @@
 				45DBED731DA911D400CDF08D /* App.swift in Sources */,
 				45D46EA71DAA5F670016C9B8 /* Reusable.swift in Sources */,
 				45D46EB11DAA89EC0016C9B8 /* BaseCell.swift in Sources */,
+				45D46ECE1DAAFE4A0016C9B8 /* BaseViewModel.swift in Sources */,
 				45D46EB71DAAAF7A0016C9B8 /* AppToken.swift in Sources */,
 				45CA9F191DA8FF1200902229 /* ViewController.swift in Sources */,
 				45D46EAA1DAA6BC30016C9B8 /* BaseViewController.swift in Sources */,
