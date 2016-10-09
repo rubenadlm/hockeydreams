@@ -8,6 +8,7 @@ PODS:
   - RxSwift (3.0.0-beta.2)
   - RxTests (3.0.0-beta.2):
     - RxSwift (~> 3.0.0-beta.2)
+  - SnapKit (3.0.2)
 
 DEPENDENCIES:
   - Alamofire (~> 4.0)
@@ -16,6 +17,7 @@ DEPENDENCIES:
   - RxCocoa (= 3.0.0-beta.2)
   - RxSwift (= 3.0.0-beta.2)
   - RxTests (= 3.0.0-beta.2)
+  - SnapKit (~> 3.0.2)
 
 SPEC CHECKSUMS:
   Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
@@ -24,7 +26,8 @@ SPEC CHECKSUMS:
   RxCocoa: 1dd105d8a4e18034ccd7bd6d136445363ce67c8e
   RxSwift: 0ea939d7d97cb70657190ffde8dc2a9b455778fc
   RxTests: 9b696439878a1c7653bb55853af027fc261d0635
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
 
-PODFILE CHECKSUM: b4f10e8b2c6b2c3fb77c7e6ef076977342bcbb26
+PODFILE CHECKSUM: ee624008ae8afd66efbdfa449e66bc8729af8e13
 
 COCOAPODS: 1.0.1

@@ -10,6 +10,7 @@ target 'hockeydreams' do
   pod 'ObjectMapper', '~> 2.1'
   pod 'RxSwift',    '3.0.0-beta.2'
   pod 'RxCocoa',    '3.0.0-beta.2'
+  pod 'SnapKit',    '~> 3.0.2'
 
   target 'hockeydreamsTests' do
     inherit! :search_paths
