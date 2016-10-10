@@ -16,7 +16,6 @@ struct App {
     var bundle_identifier = ""
     var id = 0
     var title = ""
-
 }
 
 extension App: Mappable {
@@ -37,5 +36,4 @@ extension App: Mappable {
             updated_at = uploadedDate
         }
     }
-    
 }

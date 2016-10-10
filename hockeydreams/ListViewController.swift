@@ -25,6 +25,7 @@ class ListViewController: UIViewController, BaseViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        //FIXME: use didBecomeActive from https://github.com/RxSwiftCommunity/RxViewModel when support Swift 3
         viewModel.downloadApps()
     }
     
